@@ -8,6 +8,6 @@ COPY package.json .
 
 RUN npm install
 
-COPY server.js
+COPY server.js .
 
 CMD ["node", "server.js"]
